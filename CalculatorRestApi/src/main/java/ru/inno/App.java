@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import ru.inno.services.RestClient;
 import ru.inno.services.RestClientImpl;
 
-@SpringBootApplication
+@SpringBootApplication()
 public class App {
 
     public static void main(String[] args) {
