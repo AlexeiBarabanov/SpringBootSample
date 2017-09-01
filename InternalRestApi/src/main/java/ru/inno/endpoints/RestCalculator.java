@@ -21,9 +21,11 @@ public class RestCalculator {
     @Path("/plusRandom/{operand}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response plusRandom(@PathParam("operand") Integer operand) {
+        Integer randomNumber = restClient.getRandomNumber();
+
         return Response
                 .status(200)
-                .entity(new PlusRandomResult(2, 15, 15))
+                .entity(new PlusRandomResult(operand, randomNumber, operand + randomNumber))
                 .build();
     }
 }
