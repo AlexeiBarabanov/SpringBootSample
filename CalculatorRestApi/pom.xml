@@ -8,9 +8,6 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>InternalRestApi</artifactId>
     <packaging>war</packaging>
-    <name>InternalRestApi Maven Webapp</name>
-    <url>http://maven.apache.org</url>
-
     <build>
         <finalName>InternalRestApi</finalName>
     </build>
