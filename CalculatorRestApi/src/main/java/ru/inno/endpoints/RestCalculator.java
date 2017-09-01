@@ -28,4 +28,8 @@ public class RestCalculator {
                 .entity(new PlusRandomResult(operand, randomNumber, operand + randomNumber))
                 .build();
     }
+
+    public void setRestClient(RestClient restClient) {
+        this.restClient = restClient;
+    }
 }
