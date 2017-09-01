@@ -8,8 +8,6 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>RandomGeneratorRestApi</artifactId>
     <packaging>war</packaging>
-    <name>RandomGeneratorRestApi Maven Webapp</name>
-    <url>http://maven.apache.org</url>
     <build>
         <finalName>RandomGeneratorRestApi</finalName>
     </build>

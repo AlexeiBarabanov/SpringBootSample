@@ -6,7 +6,7 @@
     <artifactId>SpringBootSample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>InternalRestApi</module>
+        <module>CalculatorRestApi</module>
         <module>RandomGeneratorRestApi</module>
     </modules>
     <packaging>pom</packaging>
