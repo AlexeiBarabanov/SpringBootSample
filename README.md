@@ -2,7 +2,7 @@
 
 #### Запуск:
 
->mvn -f ./InternalRestApi/ spring-boot:run
+>mvn -f ./CalculatorRestApi/ spring-boot:run
 
 >mvn -f ./RandomGeneratorRestApi/ spring-boot:run
 
